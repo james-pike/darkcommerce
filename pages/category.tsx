@@ -169,7 +169,7 @@ const products1 = [
   {
     id: 3,
     name: 'Focus Carry Pouch',
-    href: './product',
+    href: './altproduct',
     price: '$32',
     description: 'Heather Gray',
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-01-image-card-03.jpg',
