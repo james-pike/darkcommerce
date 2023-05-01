@@ -574,7 +574,7 @@ export default function Example() {
       <main>
         {/* Product */}
         <div className="bg-white">
-          <div className="mx-auto max-w-2xl px-4 pb-24 pt-8 sm:px-6 sm:pb-32 sm:pt-24 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+          <div className="mx-auto max-w-2xl px-4 pb-24 pt-10 sm:px-6 sm:pb-32 sm:pt-24 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             {/* Product details */}
             <div className="lg:max-w-lg lg:self-end">
               <nav aria-label="Breadcrumb">
