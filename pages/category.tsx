@@ -151,7 +151,7 @@ const products1 = [
   {
     id: 1,
     name: 'Focus Paper Refill',
-    href: '#',
+    href: './product',
     price: '$13',
     description: '3 sizes available',
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-01-image-card-01.jpg',
@@ -160,7 +160,7 @@ const products1 = [
   {
     id: 2,
     name: 'Focus Card Holder',
-    href: '#',
+    href: './product',
     price: '$64',
     description: 'Walnut',
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-01-image-card-02.jpg',
@@ -169,7 +169,7 @@ const products1 = [
   {
     id: 3,
     name: 'Focus Carry Pouch',
-    href: '#',
+    href: './product',
     price: '$32',
     description: 'Heather Gray',
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-01-image-card-03.jpg',
@@ -181,7 +181,7 @@ const products2 = [
   {
     id: 7,
     name: 'Electric Kettle',
-    href: '#',
+    href: './product',
     price: '$149',
     description: 'Black',
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-01-image-card-07.jpg',
@@ -190,7 +190,7 @@ const products2 = [
   {
     id: 8,
     name: 'Leather Workspace Pad',
-    href: '#',
+    href: './product',
     price: '$165',
     description: 'Black',
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-01-image-card-08.jpg',
@@ -200,7 +200,7 @@ const products2 = [
   {
     id: 9,
     name: 'Leather Long Wallet',
-    href: '#',
+    href: './product',
     price: '$118',
     description: 'Natural',
     imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-01-image-card-09.jpg',
@@ -658,7 +658,7 @@ export default function Example() {
                                       name={`${section.id}[]`}
                                       defaultValue={option.value}
                                       type="checkbox"
-                                      defaultChecked={true}
+                                      defaultChecked={false}
                                       className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
                                     />
                                     <label
