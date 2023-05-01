@@ -574,7 +574,7 @@ export default function Example() {
       <main>
         {/* Product */}
         <div className="bg-white">
-          <div className="mx-auto max-w-2xl px-4 pb-24 pt-16 sm:px-6 sm:pb-32 sm:pt-24 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+          <div className="mx-auto max-w-2xl px-4 pb-24 pt-10 sm:px-6 sm:pb-32 sm:pt-24 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             {/* Product details */}
             <div className="lg:max-w-lg lg:self-end">
               <nav aria-label="Breadcrumb">
@@ -640,10 +640,10 @@ export default function Example() {
                   <p className="text-base text-gray-500">{product.description}</p>
                 </div>
 
-                <div className="mt-6 flex items-center">
+                {/* <div className="mt-6 flex items-center">
                   <CheckIcon className="h-5 w-5 flex-shrink-0 text-green-500" aria-hidden="true" />
                   <p className="ml-2 text-sm text-gray-500">In stock and ready to ship</p>
-                </div>
+                              </div> */}
               </section>
             </div>
 
@@ -666,6 +666,7 @@ export default function Example() {
                 </h2>
 
                 <form>
+                    
                   <div className="sm:flex sm:justify-between">
                     {/* Size selector */}
                     <RadioGroup value={selectedSize} onChange={setSelectedSize}>
