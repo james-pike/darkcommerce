@@ -155,7 +155,7 @@ const product = {
   href: '#',
   price: '$220',
   description:
-    "Don't compromise on snack-carrying capacity with this lightweight and spacious bag. The drawstring top keeps all your favorite chips, crisps, fries, biscuits, crackers, and cookies secure.",
+    "Don't compromise on snack-carrying capacity with this lightweight and spacious bag. The drawstring top keeps all your favorite chips, biscuits, crackers, and cookies secure.",
   imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-04-featured-product-shot.jpg',
   imageAlt: 'Light green canvas bag with black straps, handle, front zipper pouch, and drawstring top.',
   breadcrumbs: [
@@ -574,7 +574,7 @@ export default function Example() {
       <main>
         {/* Product */}
         <div className="bg-white">
-          <div className="mx-auto max-w-2xl px-4 pb-24 pt-10 sm:px-6 sm:pb-32 sm:pt-24 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+          <div className="mx-auto max-w-2xl px-4 pb-24 pt-8 sm:px-6 sm:pb-32 sm:pt-24 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             {/* Product details */}
             <div className="lg:max-w-lg lg:self-end">
               <nav aria-label="Breadcrumb">
