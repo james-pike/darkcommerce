@@ -61,8 +61,6 @@ export default function Example() {
 
   return (
     <div className="bg-white">
-      {/* Mobile menu */}
-      
 
       {/* Hero section */}
       <div className="relative bg-gray-900">
@@ -82,7 +80,7 @@ export default function Example() {
         {/* Hero Text */}
        
 
-        <div className="relative flex flex-col items-center max-w-3xl px-6 py-32 mx-auto text-center sm:py-64 lg:px-0">
+        <div className="relative flex flex-col items-center max-w-3xl px-6 mx-auto text-center py-60 sm:py-64 lg:px-0">
           <h1 className="text-4xl font-bold tracking-tight text-white lg:text-6xl">New arrivals are here</h1>
           <p className="mt-4 text-xl text-white">
             The new arrivals have, well, newly arrived. Check out the latest options from our summer small-batch release
